@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wonoly/browser/issues"
   },
-  "homepage": "https://github.com/wonoly/browser#readme"
+  "homepage": "https://github.com/wonoly/browser#readme",
+  "dependencies": {
+    "logging": "^3.3.0"
+  }
 }
