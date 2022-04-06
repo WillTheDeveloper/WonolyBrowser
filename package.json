@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An open source, private browser made by @wonoly",
   "scripts": {
+    "build": "cd src/wonoly && npm run build",
     "init": "DEBUG=* node scripts/init.js",
     "init:no_debug": "DEBUG=* node scripts/init.js",
     "test": "echo \"Error: no test specified\" && exit 1"
