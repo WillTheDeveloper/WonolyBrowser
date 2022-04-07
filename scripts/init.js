@@ -39,7 +39,11 @@ if (!fs.existsSync(path.join(wonolyCoreDir, '.git'))) {
 }
 
 logger.info('Installing dependencies on browser core')
-run('npm', ['install'], { 
-    cwd: wonolyCoreDir 
+run('npm', ['install'], {
+    cwd: wonolyCoreDir
+})
+
+run('npm', ['build'], {
+  cwd: wonolyCoreDir
 })
 
