@@ -43,7 +43,7 @@ run('npm', ['install'], {
     cwd: wonolyCoreDir
 })
 
-run('npm', ['init'], {
+run('npm', ['run', 'init'], {
   cwd: wonolyCoreDir
 })
 
