@@ -104,5 +104,4 @@ dist
 .tern-port
 
 
-src/wonoly
-src/.gclient
+src/*
