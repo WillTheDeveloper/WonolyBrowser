@@ -42,8 +42,3 @@ logger.info('Installing dependencies on browser core')
 run('npm', ['install'], {
     cwd: wonolyCoreDir
 })
-
-run('npm', ['run', 'init'], {
-  cwd: wonolyCoreDir
-})
-
