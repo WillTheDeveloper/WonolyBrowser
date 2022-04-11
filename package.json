@@ -6,12 +6,15 @@
     "init:build": "cd src/wonoly && npm run init",
     "init": "DEBUG=* node scripts/init.js",
     "init:no_debug": "node scripts/init.js",
+
     "start": "cd src/wonoly && DEBUG=* node scripts/start.js",
     "start:no_build": "cd src/wonoly && DEBUG=* NO_BUILD=1 node scripts/start.js",
     "start:no_debug": "cd src/wonoly && node scripts/start.js",
+
     "build": "cd src/wonoly && DEBUG=* node scripts/build.js",
     "build:no_debug": "cd src/wonoly && node scripts/build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "l10:update": "cd src/wonoly && node scripts/l10Update.js"
   },
   "repository": {
     "type": "git",
