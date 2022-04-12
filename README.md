@@ -35,6 +35,8 @@ Wonoly's browser is made of diferent open source projects that made this browser
 	```
     npm run init
     ```
+    * note: if you are in linux, you may need to also run this script: `./src/wonoly/vendor/depot_tools/build/install-build-deps.sh` as mentioned [here](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/build_instructions.md#install-additional-build-dependencies)
+     	
 4. build chromium (recomended to leave this running over night, ~6 hours of compile time)
 	```
     npm run build
