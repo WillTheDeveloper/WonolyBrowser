@@ -7,12 +7,16 @@
     "init": "DEBUG=* node scripts/init.js",
     "init:no_debug": "node scripts/init.js",
 
+    "sync": "cd src/wonoly && DEBUG=* node scripts/sync.js",
+    "sync:no_debug": "cd src/wonoly && node scripts/sync.js",
+
     "start": "cd src/wonoly && DEBUG=* node scripts/start.js",
     "start:no_build": "cd src/wonoly && DEBUG=* NO_BUILD=1 node scripts/start.js",
     "start:no_debug": "cd src/wonoly && node scripts/start.js",
 
     "build": "cd src/wonoly && DEBUG=* node scripts/build.js",
     "build:no_debug": "cd src/wonoly && node scripts/build.js",
+
 
     "l10:update": "cd src/wonoly && node scripts/l10Update.js"
   },
